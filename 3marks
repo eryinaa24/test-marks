@@ -1,0 +1,26 @@
+#Markah 1
+M1=int(input("Enter test mark M1: "))
+while M1<0 or M1>100:
+    print("Invalid mark. Please enter a mark between 0 and 100.")
+    M1=int(input("Enter test mark M1: "))
+print(f"Test mark M1: {M1}")
+
+#Markah 2
+M2=int(input("Enter test mark M2: "))
+while M2<0 or M2>100:
+    print("Invalid mark. Please enter a mark between 0 and 100.")
+    M2=int(input("Enter test mark M2: "))
+print(f"Test mark M2: {M2}")
+
+#Markah 3
+M3=int(input("Enter test mark M3: "))
+while M3<0 or M3>100:
+    print("Invalid mark. Please enter a mark between 0 and 100.")
+    M3=int(input("Enter test mark M3: "))
+print(f"Test mark M3: {M3}\n")
+
+#Total mark and average mark
+total_mark=M1+M2+M3
+average_mark=total_mark/3
+print(f"Total mark: {total_mark}")
+print(f"Average mark: {average_mark:.2f}")
